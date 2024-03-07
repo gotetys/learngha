@@ -7,7 +7,7 @@ on:
     
 
 jobs:
-  - first:
+  first:
        runs-on: ubuntu-latest
    
        steps:
@@ -17,7 +17,7 @@ jobs:
            run: echo "Second command"
          - run: echo "Third step without name"
 
-  - second:
+  second:
       runs-on: windows
       steps:
          - name: first windows command
