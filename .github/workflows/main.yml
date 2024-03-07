@@ -1,6 +1,6 @@
 #This is a simple workflow 
 
-name: first on: 
+name: first one
 
 on:
    workflow_dispatch:
