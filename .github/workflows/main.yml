@@ -7,13 +7,20 @@ on:
     
 
 jobs:
-  first:
-    runs-on: ubuntu-latest
+  - first:
+       runs-on: ubuntu-latest
+   
+       steps:
+         - name: First ommand
+           run: echo "Hi Subbu"
+         - name: Second step
+           run: echo "Second command"
+         - run: echo "Third step without name"
 
-    steps:
-      - name: First ommand
-        run: echo "Hi Subbu"
-      - name: Second step
-        run: echo "Second command"
-      - run: echo "Third step without name"
+  - second:
+      runs-on: windows
+      steps:
+         - name: first windows command
+            run: set
+          
         
