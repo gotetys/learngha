@@ -21,6 +21,6 @@ jobs:
       runs-on: windows
       steps:
          - name: first windows command
-            run: set
+           run: set
           
         
