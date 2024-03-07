@@ -1,0 +1,15 @@
+#This is a simple workflow 
+
+name: first on: 
+
+on:
+   workflow_dispatch:
+    
+
+jobs:
+  first:
+    runs-on: 
+
+    steps:
+      - name: First ommand
+        run: echo "Hi Subbu"
